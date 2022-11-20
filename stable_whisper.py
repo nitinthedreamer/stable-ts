@@ -253,6 +253,8 @@ def results_to_sentence_srt(res: dict, srt_path,
 
     to_srt(segs, srt_path, strip=strip)
 
+    return segs
+
 
 def results_to_word_srt(res: dict, srt_path, combine_compound=False, strip=False, min_dur: float = None):
     """
